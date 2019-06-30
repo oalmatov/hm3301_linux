@@ -16,7 +16,7 @@ int main()
     cout << "Standard PM1.0\t" << hm3301.spm010() << endl;
     cout << "Standard PM2.5\t" << hm3301.spm025() << endl;
     cout << "Standard PM10\t" << hm3301.spm100() << endl;
-    cout << "Atmospheric PM1.0\t" << hm3301.apm010() << endl;
-    cout << "Atmospheric PM2.5\t" << hm3301.apm025() << endl;
-    cout << "Atmospheric PM10\t" << hm3301.apm100() << endl;
+    cout << "Atmospheric environment PM1.0\t" << hm3301.apm010() << endl;
+    cout << "Atmospheric environment PM2.5\t" << hm3301.apm025() << endl;
+    cout << "Atmospheric environment PM10\t" << hm3301.apm100() << endl;
 }
